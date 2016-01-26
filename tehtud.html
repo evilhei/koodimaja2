@@ -1,0 +1,90 @@
+<template name="tehtud">
+  <body>
+  <html lang="en">
+    {{> header}}
+    {{> showCaseDetails}}
+    {{> contactForm}}
+    {{> footer}}
+  </html>
+  </body>
+</template>
+
+
+<template name="showCaseDetails">
+<!-- Siit algab showcase-->
+<div class="container">
+    <div class="section">
+	<h4 class="center">{{_ "exampleOfThings"}}</h4>
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m12">
+          <div class="icon-block">
+
+            <h5 class="center">{{_ "kvaliteetSys"}}</h5>
+
+            <p class="light">{{_ "kvaliteetSysDesc"}}</p>
+              <div class="row">
+                <div class="col s12 m6">
+                    <a href="/kvaliteet1.PNG" class="fancybox" rel="gallery1" target="_blank"><img src="/kvaliteet1.PNG" width="400px" /></a>
+                  </div>
+                  <div class="col s12 m6">
+                    <a href="/kvaliteet2.PNG" class="fancybox" rel="gallery1" target="_blank"><img src="/kvaliteet2.PNG" width="400px" /></a>
+                  </div>
+                  <div class="col s12 m6">
+                    <a href="/kvaliteet3.PNG" class="fancybox" rel="gallery1" target="_blank"><img src="/kvaliteet3.PNG" width="400px" /></a>
+                  </div>
+                
+              </div>
+
+
+          </div>
+        </div>
+
+        
+      </div>
+
+      <div class="row">
+        <div class="col s12 m12">
+          <div class="icon-block">
+
+            <h5 class="center">{{_ "itRegistry"}}</h5>
+
+            <p class="light">{{_ "itRegistryDesc"}}</p>
+                <div class="row">
+                  <div class="col s12 m6">
+            			<a href="/itregister1.png" class="fancybox" rel="gallery2" target="_blank"><img src="/itregister1.png" width="400px" /></a>
+                  </div>
+                  <div class="col s12 m6">
+                   <a href="/itregister2.png" class="fancybox" rel="gallery2" target="_blank"><img src="/itregister2.png" width="400px" /></a> 
+                   </div>
+                </div>
+          </div>
+        </div>
+
+        
+      </div>
+	     <div class="row">
+	        <div class="col s12 m12">
+	          <div class="icon-block">
+
+	            <h5 class="center">{{_ "knowHow"}}</h5>
+
+	            <p class="light">{{_ "knowHowDesc"}}</p>
+				      <a href="/itforum.png" class="fancybox" target="_blank"><img src="/itforum.png" width="400px" /></a>
+
+	          </div>
+	        </div>
+
+	        
+	      </div>
+
+        <div class="col s12 m12 l6"> 
+          <div class="card">
+            <h2>Nii kaua kui mõtled, mängi.</h2>
+          <div id="matterJS"></div>
+          </div>
+        </div>
+
+    </div>
+  </div>
+</template>

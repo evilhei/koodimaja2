@@ -1,0 +1,43 @@
+{ "pealkiri": "custom made software",
+"home": "#koodimaja",
+"meist": "about us",
+"tehtud": "showcase",
+"kontakt": "contact",
+"pealkiriTekst": "We produce tailor made software.",
+"readMoreHere": "Read more",
+"whatWeDo": "What we do?",
+"whyWeDo": "Why we do it?",
+"howWeDo": "How we do it?",
+"whatWeDoDetailsFirstPage": "We produce software. We produce software which is customized to your needs. We can produce different kind of software, for example registries, CRM and sales systems, warehouse systems etc. ",
+"whyWeDoDetailsFirstPage": "Why order custom made software when theres so many out-of-box solutions out there? Every business is different and their needs are also different. 
+Two companies from the same business never do things exactly the same. Out-of-box solution will cover most of the needs but many times it will not cover the whole. That's why custom made software can be a solution to fullfill the cap and 
+give you an edge and create great value for the business. ",
+"howWeDoDetailsFirstPage": "We use modern technologies to create the software. For example NodeJS, MeteorJS, React. Our produced software is a web application and works as a client-server system. Using this approach gives great flexibility, the application will run on all platforms with the same codebase. ",
+"exampleOfThings": "Success stories",
+"kvaliteetSys": "Quality monitoring system for manufacturing company", 
+"kvaliteetSysDescShort": "Customer had specific requirements coming from product standards which needed to be met. There was no 
+software available for measuring the quality parameters and also SAP ERP wasn't flexible enough to meet the requirements. Customer decided to order custom made software ",
+"itRegistry": "itRegistry",
+"itRegistryDescShort": "Customer (~350 employees) needed a simple tool where they can register IT devices like laptops, phones, monitors etc that are handed out to the employees. Instad of using 
+Excel worksheets they decided to order custom made software. Outcome was simple web based application ",
+"contactUs": "Contact Us",
+"yourName": "Your Name",
+"yourEmail": "Your Email",
+"pealKiri": "Subject",
+"sõnum": "Your message to us",
+"send": "Send",
+"footerText": "We are a team with long business software experience who enjoys creating good products. We take our work with pride and want to create the best product for the customer. ",
+"findUs": "Find us",
+"whatWeDoDetails": "We produce software. We produce software which is customized to your needs. We can produce different kind of software, for example registries, CRM and sales systems, warehouse systems etc. We can create interfaces that speaks with other business software, stand alone tools for measure and analyse something or just a simple web app with a form for some event.",
+"whyWeDoDetails": "Why order custom made software when theres so many out-of-box solutions out there? Every business is different and their needs are also different. 
+Two companies from the same business never do things exactly the same. Out-of-box solution will cover most of the needs but many times it will not cover the whole. That's why custom made software can be a solution to fullfill the cap and 
+give you an edge and create great value for the business. ",
+"howWeDoDetails": "We use modern technologies to create the software. For example NodeJS, MeteorJS, React. Our produced software is a web application and works as a client-server system. Using this approach gives great flexibility, the application will run on all platforms with the same codebase. We will work closely together with customer and put great effort in the analysis to produce the correct solution from the beginning.",
+"kvaliteetSysDesc": "Customer had specific requirements coming from product standards which needed to be met. There was no 
+software available for measuring the quality parameters and also SAP ERP wasn't flexible enough to meet the requirements. Customer decided to order custom made software which was 100% made for them and was capable of doing everything that they required.
+The tailor made solution eliminiated many different Excel sheets, Access database and handwritten product cards. The whole process of developing the software only took 2 weeks and after that the product was in production. The product was also connected to SAP ERP system.",
+"itRegistryDesc": "Customer (~350 employees) needed a simple tool where they can register IT devices like laptops, phones, monitors etc that are handed out to the employees. Instad of using 
+Excel worksheets they decided to order custom made software. Outcome was simple web based application where it was possible to create a employee and assign devices to him. The tool gave a good overview of the company IT inventory and and made the IT devices managable and controllable.",
+"knowHow": "Know-how sharing site",
+"knowHowDesc": "Reddi't style website where employees can ask questions and other employees can answer the questions. Answers and questions can get points which motivates the people to use the site. Customized from open source software.",
+"located": "We are located in Tallinn, Estonia"}
