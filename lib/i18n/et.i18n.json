@@ -32,4 +32,17 @@ ning palju hulga käsitsi kirjutatavaid tootekaarte. Tarkvaraarendusele kulus va
 "itRegistryDesc": "Ettevõttel (~350 töötajat) oli vaja lihtsat vahendit, kuhu registreerida töötajatele välja jagatud seadmed nagu arvutid, ekraanid, telefonid ja kõik muud vahendid. Exceli tabeli asemel otsustati luua rätseptarkvara. Tulemuseks oli lihtne veebibrauseris jooksev rakendus, kuhu sai luua töötaja ja talle lisada seadmeid. Kõik töötajaid said alguses võimaluse enda käes olevad seadmed ise registreerida. Rakendus andis hea ülevaate ettevõtte IT inventaarist, seadmeid sai töötajatelt ära võtta ja teistele suunata, seadmeid sai märkida mitte kasutusel olevaks, uuendada andmeid jms.",
 "knowHow": "Know-how jagamise keskkond",
 "knowHowDesc": "Reddit'i stiilis keskkond, kus ettevõtte töötajad saavad esitada küsimusi ja teised saavad neile vastata. Vastajad ja ka küsimuste esitajad saavad koguda punkte, mis motiveerib neid arutelus osalema. Kohandatud vabavaralisest tarkvarast.",
-"located": "Me asume Tallinnas."}
+"located": "Me asume Tallinnas.",
+"6reasons": "6 põhjust, miks tellida rätseptarkvara",
+"1reason": "Sobib kõigi teie vajadustega",
+"1reasonDesc": "See on nagu hea ülikond, mis on mõõdetud, tehtud, proovitud ja tehtud uuesti ainult teie jaoks",
+"2reason": "Enda visiooni teostamine, mitte kohandumine kellegi teise omaga.",
+"2reasonDesc": "Teie teate, mis on Teie ärile parim ja kõige vajalikum. Mitte keegi teine.",
+"3reason": "Kohandatavus ja integreeritavus",
+"3reasonDesc": "Teie jaoks toodetud tarkvaras saab igat väikest nuppu ja teksti muuta. Samuti saab selle panna suhtlema teie põhisüsteemidega.",
+"4reason": "Konkurentsieelis",
+"4reasonDesc": "Valmistarkvara on see sama, mida kasutavad Teie konkurendid. Olge targemad.",
+"5reason": "Võimalus kasvada",
+"5reasonDesc": "Kasutades paindlikku tarkvaraarhitektuuri on rätseptarkvarale alati võimalik juurde ehitada mooduleid ja lisafunktsioone. Valmistoodetel tihti need võimalused puuduvad või on kulukamad.",
+"6reason": "Puuduvad litsentsitasud, te omate tarkvara",
+"6reasonDesc": "Te ei pea maksma kalleid tarkvaralitsentse või selle jooksutamiseks serverite litsentse. Te omate tarkvara ja kõik selle komponendid on vabavaralised."}
