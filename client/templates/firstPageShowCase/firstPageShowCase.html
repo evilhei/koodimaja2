@@ -1,0 +1,27 @@
+<template name="showCase">
+<!-- Siit algab showcase-->
+  <div class="container">
+    <div class="section">
+	     <h4 class="center">{{_ "exampleOfThings"}}</h4>
+
+        <div class="row">
+          <div class="col s12 m12">
+            <div class="icon-block">
+              <h5 class="center">{{_ "kvaliteetSys"}}</h5>
+              <p class="light">{{_ "kvaliteetSysDescShort"}}<a href="{{pathFor route='tehtud' lang=getCurrentLanguage}}">{{_ "readMoreHere"}}</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col s12 m12">
+            <div class="icon-block">
+              <h5 class="center">{{_ "itRegistry"}}</h5>
+            <p class="light">{{_ "itRegistryDescShort"}}<a href="{{pathFor route='tehtud' lang=getCurrentLanguage}}">{{_ "readMoreHere"}}</a></p>
+          </div>
+        </div> 
+        
+      </div>
+    </div>
+  </div>
+</template>

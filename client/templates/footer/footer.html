@@ -1,0 +1,35 @@
+<template name="footer">
+  <footer class="page-footer blue-grey darken-4">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="brown-text text-lighten-3">Koodimaja OÜ</h5>
+          <p class="white-text">{{_ "footerText"}}</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text"></h5>
+          <ul>
+            <li><a class="white-text" href="{{pathFor route='meist' lang=getCurrentLanguage}}">{{_ "meist"}}</a></li>
+            <li><a class="white-text" href="{{pathFor route='kontakt' lang=getCurrentLanguage}}">{{_ "kontakt"}}</a></li>
+            <li><p class="white-text">info@koodimaja.ee</p></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">{{_ "findUs"}}</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Github</a></li>
+            <li><a class="white-text" href="#!">Twitter</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made in <a class="brown-text text-lighten-1">Tallinn, Estonia</a>
+      </div>
+    </div>
+  </footer>
+
+</template>

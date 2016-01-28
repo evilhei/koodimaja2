@@ -1,0 +1,104 @@
+<template name="header">
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="fragment" content="!">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <meta name="google-site-verification" content="xbTXGT5S25dr-da1NNXaBbuhCbWJZEfTv_zWTp2rM-I" />
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+  <div class="navbar-fixed">
+    <nav class="navbar1" role="navigation">
+      <div class="nav-wrapper container"><a href="{{pathFor route='home' lang=getCurrentLanguage}}"><img src="/koodimaja.png" id="logo-container" class="brand-logo"></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="{{pathFor route='home' lang=getCurrentLanguage}}">{{_ "home"}}</a></li>
+          <li><a href="{{pathFor route='meist' lang=getCurrentLanguage}}">{{_ "meist"}}</a></li>
+          <li><a href="{{pathFor route='tehtud' lang=getCurrentLanguage}}">{{_ "tehtud"}}</a></li>
+          <li><a href="{{pathFor route='kontakt' lang=getCurrentLanguage}}">{{_ "kontakt"}}</a></li>
+              <li class="langET"><a class="waves-effect waves-teal btn-flat langET">Eesti</a></li>
+              <li class="langEN"><a class="waves-effect waves-teal btn-flat langEN">English</a></li>
+        </ul>
+        <ul id="nav-mobile" class="side-nav">
+          <li><a href="{{pathFor route='home' lang=getCurrentLanguage}}">{{_ "home"}}</a></li>
+          <li><a href="{{pathFor route='meist' lang=getCurrentLanguage}}">{{_ "meist"}}</a></li>
+          <li><a href="{{pathFor route='tehtud' lang=getCurrentLanguage}}">{{_ "tehtud"}}</a></li>
+          <li><a href="{{pathFor route='kontakt' lang=getCurrentLanguage}}">{{_ "kontakt"}}</a></li>
+          <li class="langET"><a class="waves-effect waves-teal btn-flat langET">Eesti</a></li>
+          <li class="langEN"><a class="waves-effect waves-teal btn-flat langEN">English</a></li>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </div>
+  <section id="blueish">
+  <div id="index-banner" class="parallax-container">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <div class="parallax"><img src="/koodimaja_taust.png" alt="Unsplashed background img 1"></div>
+          <br><br>
+          <h1 class="header center white-text">{{_ "pealkiri"}}</h1>
+          <div class="row center">
+            <h5 class="header col s12 white-text">{{_ "pealkiriTekst"}}</h5>
+          </div>
+          <div class="row center">
+            <a href="{{pathFor route='meist' lang=getCurrentLanguage}}" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">{{_ "readMoreHere"}}</a>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+</template>
+
+<template name="firstPage">
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">polymer</i></h2>
+            <h5 class="center">{{_ "whatWeDo"}}</h5>
+
+            <p class="light">{{_ "whatWeDoDetailsFirstPage"}}<a href="{{pathFor route='meist' lang=getCurrentLanguage}}">{{_ "readMoreHere"}}</a></p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">loop</i></h2>
+            <h5 class="center">{{_ "whyWeDo"}}</h5>
+
+            <p class="light">{{_ "whyWeDoDetailsFirstPage"}}<a href="{{pathFor route='meist' lang=getCurrentLanguage}}">{{_ "readMoreHere"}}</a></p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">web</i></h2>
+            <h5 class="center">{{_ "howWeDo"}}</h5>
+
+            <p class="light">{{_ "howWeDoDetailsFirstPage"}} <a href="{{pathFor route='meist' lang=getCurrentLanguage}}">{{_ "readMoreHere"}}</a></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</template>
