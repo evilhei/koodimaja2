@@ -29,3 +29,6 @@ spiderable
 tap:i18n
 martino:iron-router-i18n
 dfischer:phantomjs
+ryw:blog
+accounts-password
+accounts-ui

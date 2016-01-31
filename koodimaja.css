@@ -5,6 +5,15 @@
  *
  * Made By MaterializeCSS.com
  */
+img.responsive-img,
+video.responsive-video {
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1em;
+  display: block;
+}
 
 @media only screen and (max-width : 480px) {
 .brand-logo {
