@@ -45,4 +45,6 @@ ning palju hulga käsitsi kirjutatavaid tootekaarte. Tarkvaraarendusele kulus va
 "5reason": "Tekitab võimaluse kasvada",
 "5reasonDesc": "Kasutades paindlikku tarkvaraarhitektuuri on rätseptarkvarale alati võimalik juurde ehitada mooduleid ja lisafunktsioone. Valmistoodetel tihti need võimalused puuduvad või on kulukamad.",
 "6reason": "Puuduvad litsentsitasud, te omate tarkvara",
-"6reasonDesc": "Te ei pea maksma kalleid tarkvaralitsentse või selle jooksutamiseks serverite litsentse. Te omate tarkvara ja kõik selle komponendid on vabavaralised."}
+"6reasonDesc": "Te ei pea maksma kalleid tarkvaralitsentse või selle jooksutamiseks serverite litsentse. Te omate tarkvara ja kõik selle komponendid on vabavaralised.",
+"scrapManagement": "Praaktoodangu register",
+"scrapManagementDesc": "Lihtne register, millega saab registreerida ja jälgida praaktoodangut. Erinevad rollid, admin leht. Liikuv pilt ütleb rohkem kui tuhat sõna."}
