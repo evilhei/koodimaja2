@@ -5,6 +5,13 @@
  *
  * Made By MaterializeCSS.com
  */
+li .langET {
+  padding-top: 10px;
+}
+li .langEN {
+  padding-top: 10px;
+}
+
 img.responsive-img,
 video.responsive-video {
   max-width: 100%;
